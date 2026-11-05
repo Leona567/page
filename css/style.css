@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+
+}
+header, main, footer {
+    border: black solid 1px;
+    margin:0 auto;
+    border: none;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height:120px;
+    width: 1040px;
+}
+#panorama{
+    width: 100%;
+    height: 200px;
+    background: url(../img/2.jpg) no-repeat center 60%;
+    background-size: cover; /*масштабирование фона*/
+    border: double;
+    border-radius: 20px 30px;
+}
+main{
+    padding-bottom: 100px;
+    width: 1040px;
+}
+.main_img-float{
+    width: 600px;
+    height: 500px;
+    margin: 40px;
+    float: left;
+    box-shadow: inset;
+    border: ridge;
+    border-radius: 20px 30px;
+    position: relative;
+    left: -400px;
+}
+main h1, h2, h3, p{
+    font-size: 24px;
+}
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    width: 1040px;
+}
+body{
+    background-color: #F5EFCB;
+    color: #575346;
+}
+.services_img{
+    width: 240px;
+    height: 250px;
+    border: ridge;
+    border-radius: 20px 30px;
+}
+.services__item {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 250px;
+    float: left;
+    .clearfix a{
+        color: pink;
+        text-decoration: none;
+    }
+    .clearfix a:hover{
+        text-decoration: underline;
+    }
+}
+.services{
+    padding: 35px;
+    border: 5px;
+}
+section.services{
+    display: flow-root;
+}
+.h1-invisible{
+    visibility: hidden;
+}
+.photo{
+    margin: 0 auto;
+}
+.photo h1{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.photo img{
+    width: 600px;
+    height: 400px;
+  display: block;
+  margin: 0 auto;
+  border: ridge;
+  position: relative;
+  margin-top: 20px;
+}
+.contacts{
+    display: table;
+    margin: 0 auto; 
+}
+.contacts {
+   display: table;
+    margin: 0 auto;
+    text-align: center; 
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 200px;
+    font-size: 44px;
+    float: left;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 43px;
+}
+#mainnav li{
+    display: inline;
+    margin-right: 35px;
+    text-align: center;
+    margin-top: 44px;
+    font-size: 24px;
+    padding-top: 20px;
+}
+#mainnav a{
+    text-decoration: none;
+    color: #A19B84;
+}
+#mainnav a:hover{
+    text-decoration: underline;
+}
+#mainnav li.active a{
+    font-weight: bold;
+}
+.pink{
+    color: pink;
+}
+.pink i{
+    color: pink;
+}
+.footer_block{
+    display: inline-block;
+    width: 335px;
+  text-transform: uppercase;
+}
+.footer_icons{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+}
+.footer_img{
+    width: 50px;
+    margin-left: 10px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inter-uniquifier {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.serif{
+    font-family: 'Times New Roman', Times, serif;
+}
+.sansserif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: "Tektur", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Pixelify Sans", sans-serif;
+}
+.new::after{
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: #6F5A4A;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+table{
+    border: 5px solid #A19B84;
+    border-collapse: collapse;
+}
+tr, th{
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+}
+.price th:first-child{
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child{
+    width: 25%;
+}
+.price tr:nth-child(even){ /*четные*/
+background-color: #FCE4EC;
+color: #A19B84;
+}
+.price tr:nth-child(odd){ /*нечетные*/
+background-color: #E9DDE2;
+color: #6F5A4A;
+}
+table caption{
+    text-align: left;
+    color: #6F5A4A;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea{
+height: 20px;
+width: 250px;
+padding: 5px;
+margin-bottom: 10px;
+border: white solid 1px;
+background-color: #eddfff;
+}
+#contact-form textarea{
+    height: auto;
+    resize: vertical;
+}
+    #contact-form select{
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: white solid 1px;
+        background-color: #eddfff;
+    }
+    p{
+        font-size: 24px;
+    }
